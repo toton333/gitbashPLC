@@ -1,0 +1,28 @@
+git config --global user.name "bishan" ->to set the author's name
+git config --global user.email "toton333@yahoo.com" -> to set the author's email
+
+--------------------------------------------------------------------
+
+adding starts to hold the file to be commited, but doesn't take snapshot
+after adding we need to do commit with a message of modification to make a snapshot of it
+
+---------------------------------------------------------------------
+
+
+git add .   ->for tracking all files
+
+git add <filename>    -> for adding specific file
+
+git commit -m "message"  -> for putting tracked file into snapshot so that it can be later retrieved
+                            exactly how it was at the time of commit.
+
+
+git commit -a -m "message"   -> for direct commit without adding it
+
+git status  -> to check the status
+
+git log   ->for log history
+
+git log --oneline -> for log history in one line
+
+git status -s  -> for small description of status
