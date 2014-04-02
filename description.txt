@@ -1,5 +1,8 @@
 git config --global user.name "bishan" ->to set the author's name
+
 git config --global user.email "toton333@yahoo.com" -> to set the author's email
+
+git init <project folder name> ->to make that folder a git repository
 
 --------------------------------------------------------------------
 
